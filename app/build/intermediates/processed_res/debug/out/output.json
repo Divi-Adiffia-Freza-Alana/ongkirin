@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.divi.diongkir",
+  "applicationId": "com.noerkhalidah.ongkirin",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "resources-debug.ap_",
       "properties": {
-        "packageId": "com.divi.diongkir",
+        "packageId": "com.noerkhalidah.ongkirin",
         "split": "",
         "minSdkVersion": "21"
       }

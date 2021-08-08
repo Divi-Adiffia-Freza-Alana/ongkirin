@@ -14,8 +14,11 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:targetApi="q">
+        <activity android:name=".ui.auth.register"></activity>
+        <activity android:name=".ui.home.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="com.noerkhalidah.ongkirin.ui.home.MainActivity"
+            android:name=".ui.auth.login"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -24,7 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.noerkhalidah.ongkirin.ui.search.SearchCityActivity" />
+        <activity android:name=".ui.search.SearchCityActivity" />
     </application>
 
 </manifest>

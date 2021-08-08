@@ -1,4 +1,4 @@
-com.divi.diongkir
+com.noerkhalidah.ongkirin
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1541,6 +1541,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_arrow_back
+drawable ic_baseline_more_vert_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
@@ -1669,6 +1670,8 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnLogin
+id btnRegister
 id btnSubmit
 id buttonPanel
 id cache_measures
@@ -1784,6 +1787,7 @@ id listMode
 id list_item
 id llCity
 id llMain
+id logout
 id masked
 id message
 id middle
@@ -1955,10 +1959,17 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvCity
+id tvCreateAccount
 id tvEst
 id tvPrice
 id tvProvince
+id tvRegister
 id tvType
+id txtConfirmPassword
+id txtPassword
+id txtPasswordReg
+id txtUsername
+id txtUsernameReg
 id unchecked
 id uniform
 id unlabeled
@@ -2031,7 +2042,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
+layout activity_register
 layout activity_search_city
 layout custom_dialog
 layout custom_search
@@ -2104,6 +2117,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -2203,6 +2217,8 @@ style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
 style AppTheme
 style AppTheme_AppBarOverlay
+style AppTheme_NoActionBar
+style AppTheme_PopupOverlay
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
